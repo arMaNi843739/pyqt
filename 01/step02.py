@@ -7,7 +7,9 @@ class MainWindow(QtWidgets.QWidget):
 
         self.setGeometry(300, 50, 400, 350)
 
+        # Hello World!と書かれたラベルを追加
         self.label = QtWidgets.QLabel('Hello World!', self)
+        # ラベルを表示する位置と大きさを指定
         self.label.setGeometry(50, 50, 100, 10)
 
 if __name__ == '__main__':
